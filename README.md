@@ -8,6 +8,22 @@ This repository aims to show hexagonal architecture in Go. For simplicity, there
 
 ## Structure
 
-** /cmd **
+**/cmd**	
 
 Entrypoint of the project.
+
+**/internal/controller**	
+
+Controller for HTTP requests. It is also primary adapter.
+
+**/internal/infra**	
+
+Intrastructure related code. It is also secondary adapter.
+
+**/internal/core**	
+
+Hexagonal architecture is implemented in directory.
+
+_port_
+
+This directory includes primary and secondary ports. "Service" is primary port and "Repository" is secondary port.
