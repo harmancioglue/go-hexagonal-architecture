@@ -5,3 +5,7 @@ This repository aims to show hexagonal architecture in Go. For simplicity, there
 ## Tech
 
 - Go
+
+## Structure
+
+# /cmd
