@@ -8,4 +8,4 @@ This repository aims to show hexagonal architecture in Go. For simplicity, there
 
 ## Structure
 
-# /cmd
+### /cmd
